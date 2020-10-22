@@ -35,8 +35,8 @@ section {
   filter: grayscale(100%);
 }
 .logo {
-  width: 2500px;
-  height: 2500px;
+  width: 2470px;
+  height: 2470px;
   border-radius: 50%;
   object-fit: cover;
   position: absolute;
@@ -46,7 +46,7 @@ section {
   right: 50px;
   transform-origin: center;
   margin: auto;
-  top: -10000px; left: -10000px; bottom: -9985px; right: -10080px;
+  top: -10000px; left: -10000px; bottom: -9985px; right: -10090px;
   transform: rotate(0deg);
   opacity: 1;
 }
@@ -64,24 +64,6 @@ section {
   margin: auto;
   top: -10000px; left: -10000px; bottom: -10000px; right: -10000px;
   transform: rotate(0deg);
-  opacity: 1;
-  transform: rotate(0deg);
-}
-
-.solid_rotation {
-  background: red;
-  width: 2500px;
-  height: 2500px;
-  border-radius: 50%;
-  object-fit: cover;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  bottom: 50%;
-  right: 50%;
-  transform-origin: center;
-  margin: auto;
-  top: -10000px; left: -10000px; bottom: -10000px; right: -10000px;
   opacity: 1;
 }
 
