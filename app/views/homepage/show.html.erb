@@ -2,6 +2,7 @@
   <div class="example example--2">
     <span class="scroll-icon">
       <span class="scroll-icon__dot"></span>
+      <p>Please scroll to the bottom</p>
     </span>
   </div>
   <!-- CIRCLE IMGs -->
@@ -38,7 +39,7 @@
 <img class="svg_rotation" id="svg_3" src="https://res.cloudinary.com/dj9iphc8u/image/upload/v1603361115/acc_svgs/3_bssrkn.svg" alt="">
 <img class="svg_rotation" id="svg_4" src="https://res.cloudinary.com/dj9iphc8u/image/upload/v1603361116/acc_svgs/4_vgzjed.svg" alt="">
 <!-- <img class="svg_rotation" id="svg_5" src="https://res.cloudinary.com/dj9iphc8u/image/upload/v1603361118/acc_svgs/5_rsiqdr.svg" alt=""> -->
-<a id="img_26" href="https://www.accenture.com/"><img class="logo"  src="https://res.cloudinary.com/dj9iphc8u/image/upload/v1603372941/acc_clean/logo_apmr7f.png" alt=""></a>
+<img class="logo" id="img_26" src="https://res.cloudinary.com/dj9iphc8u/image/upload/v1603372941/acc_clean/logo_apmr7f.png" alt="">
 <!-- <img class="svg_rotation" id="svg_6" src="https://res.cloudinary.com/dj9iphc8u/image/upload/v1603361116/acc_svgs/6_ajdlug.svg" alt="">
 <img class="svg_rotation" id="svg_7" src="https://res.cloudinary.com/dj9iphc8u/image/upload/v1603361116/acc_svgs/7_ruc3oi.svg" alt=""> -->
 <!-- <img class="svg_rotation" id="svg_8" src="https://res.cloudinary.com/dj9iphc8u/image/upload/v1603361118/acc_svgs/8_ndnj8e.svg" alt="">
@@ -191,9 +192,11 @@
 
 function updatePercentage() {
   tl.progress();
-  // console.log(tl.progress())
+  console.log(tl.progress())
   if (tl.progress() > 0.9) {
     window.scrollBy(0, -5)
+  } else {
+    window.scrollBy(0, 2)
   }
 }
 </script>
