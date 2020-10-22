@@ -1,19 +1,12 @@
 // Place all the styles related to the homepage controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 body {
   margin: 0px;
 }
 
 section {
-  padding: 2em;
-  height: 100vh;
-  position: relative;
-  box-sizing: 30%;
-}
-
-.banana {
   padding: 2em;
   height: 100vh;
   position: relative;
@@ -35,6 +28,11 @@ section {
   top: -10000px; left: -10000px; bottom: -10000px; right: -10000px;
   transform: rotate(0deg);
   opacity: 1;
+}
+
+.grayscale {
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
 }
 .logo {
   width: 2500px;
@@ -87,24 +85,55 @@ section {
   opacity: 1;
 }
 
-.card_1 {
+.card {
   width: 300px;
-  height: 200px;
-  background-color: red;
+  // height: 100px;
+  background-color: white;
   position: absolute;
-  left: 50px;
-  top: 100px;
-  opacity: 0;
+  opacity: 1;
+
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin: 10px;
+  }
+  p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: light;
+    color: darkgray;
+    margin: 10px;
+  }
+
 }
 
-.card_2 {
-  width: 300px;
-  height: 200px;
-  background-color: red;
-  position: absolute;
+#card_1 {
+  left: 50px;
+  top: 100px;
+}
+
+#card_2 {
   right: 50px;
   bottom: 100px;
-  opacity: 0;
+}
+
+#card_3 {
+  left: 50px;
+  top: 300px;
+}
+
+#card_4 {
+  left: 50px;
+  top: 100px;
+}
+
+#card_5 {
+  left: 50px;
+  top: 100px;
+}
+
+#card_6 {
+  left: 50px;
+  top: 100px;
 }
 
 
@@ -151,19 +180,6 @@ section {
   border: 0.25em solid darkgray;
   border-radius: 1em;
 }
-
-// Page style
-
-// h2 {
-//   color: white;
-//   font-family: Roboto, sans-serif;
-//   font-weight: 100;
-// }
-
-// .page-wrap {
-//   display: flex;
-//   height: 100vh;
-// }
 
 .example {
   bottom: 100px;
