@@ -72,18 +72,20 @@ section {
   // height: 100px;
   background-color: white;
   position: absolute;
-  opacity: 1;
+  opacity: 0.9;
 
   h1 {
     font-family: 'Roboto', sans-serif;
     color: black;
     margin: 10px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   }
   p{
     font-family: 'Roboto', sans-serif;
     font-weight: light;
-    color: darkgray;
+    color: #4a4a4a;
     margin: 10px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   }
 
 }

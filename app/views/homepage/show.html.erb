@@ -82,7 +82,7 @@
 </div>
 
 <div class="card" id="card_4">
-  <h1>Best peoplel</h1>
+  <h1>Best people</h1>
   <p>Leveraging the power of global insight, relationships, collaboration and learning to deliver exceptional service to clients wherever they do business.</p>
 </div>
 
@@ -107,7 +107,7 @@
 <script>
 
   var tl = new TimelineMax({onUpdate:updatePercentage});
-  const controller = new ScrollMagic.Controller();
+  const controller = new ScrollMagic.Controller({refreshInterval: 500});
 
 
   tl.from("#img_22", 1, {width: 0, height: 0, ease: Power1.easeInOut});
@@ -116,33 +116,33 @@
   tl.from("#img_5", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
   tl.from("#img_6", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
   tl.from("#img_2", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
+  tl.from("#card_1", .3, {opacity: 0, ease: Power1.easeInOut}, "=-.9");
   // tl.from("#card_2", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
   // tl.from("#card_2", 1, {opacity:1, ease: Power1.easeInOut}, "=-.9");
-  tl.from("#card_1", .3, {x: 20, y:20, opacity: 0, ease: Power1.easeInOut}, "=-.9");
   tl.from("#img_7", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
   // tl.from("#img_8", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
   // tl.from("#img_9", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
   // tl.from("#img_10", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
   // tl.from("#img_11", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
+  tl.from("#card_2", .3, {opacity: 0, ease: Power1.easeInOut}, "=-.9");
   tl.from("#img_12", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
-  tl.from("#card_2", .3, {x: -20, y:-20, opacity: 0, ease: Power1.easeInOut}, "=-.9");
   // tl.from("#img_13", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
   tl.from("#img_14", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
   // tl.from("#img_15", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
   tl.from("#img_16", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
-  tl.from("#card_3", .3, {x: -20, y:20, opacity: 0, ease: Power1.easeInOut}, "=-.9");
+  tl.from("#card_3", .3, {opacity: 0, ease: Power1.easeInOut}, "=-.9");
   // tl.from("#img_17", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
   tl.from("#img_18", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
-  tl.from("#card_4", .3, {x: 20, y:-20, opacity: 0, ease: Power1.easeInOut}, "=-.9");
+  tl.from("#card_4", .3, {opacity: 0, ease: Power1.easeInOut}, "=-.9");
   tl.from("#img_19", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
   tl.from("#img_20", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
-  tl.from("#card_5", .3, {x: 20, y: 0, opacity: 0, ease: Power1.easeInOut}, "=-.9");
+  tl.from("#card_5", .3, {opacity: 0, ease: Power1.easeInOut}, "=-.9");
   tl.from("#img_21", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
-  tl.from("#card_6", .3, {x: -20, y: 0, opacity: 0, ease: Power1.easeInOut}, "=-.9");
   // tl.from("#img_23", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
   // tl.from("#img_24", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
   // tl.from("#img_25", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
   tl.from("#img_4", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
+  tl.from("#card_6", .3, {opacity: 0, ease: Power1.easeInOut}, "=-.9");
 
   tl.from("#svg_1", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
   tl.from("#svg_2", 1, {width: 0, height: 0, ease: Power1.easeInOut}, "=-.9");
@@ -191,8 +191,8 @@
 
 function updatePercentage() {
   tl.progress();
-  console.log(tl.progress())
-  if (tl.progress() > 0.98) {
+  // console.log(tl.progress())
+  if (tl.progress() > 0.9) {
     window.scrollBy(0, -5)
   }
 }
