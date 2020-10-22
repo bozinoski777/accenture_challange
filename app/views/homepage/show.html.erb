@@ -116,8 +116,8 @@
 function updatePercentage() {
   tl.progress();
   console.log(tl.progress())
-  if (tl.progress() == 1) {
-    window.onscroll = function () { window.scrollTo(0, 10300); };
+  if (tl.progress() > 0.9) {
+    window.scrollBy(0, -5)
   }
 }
 </script>
