@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
 body {
   margin: 0px;
 }
@@ -11,6 +12,16 @@ section {
   height: 100vh;
   position: relative;
   box-sizing: 30%;
+}
+
+#scroll-text {
+  font-family: 'Roboto Slab', serif;
+   bottom: 10%;
+  left: 45%;
+  position: absolute;
+  transform-origin: center;
+  align: center;
+  color: darkgray;
 }
 
 .img_rotation {
@@ -93,35 +104,39 @@ section {
 #card_1 {
   left: 180px;
   top: 50px;
+  text-align: center;
 }
 
 #card_2 {
   right: 180px;
   bottom: 50px;
-  text-align: right;
+  text-align: center;
 }
 
 #card_3 {
   right: 180px;
   top: 50px;
-  text-align: right;
+  text-align: center;
 }
 
 #card_4 {
   left: 180px;
   bottom: 50px;
+  text-align: center;
 }
 
 #card_5 {
   left: 200px;
   top: 50%;
   margin: -100px 0 0 -150px;
+  text-align: center;
 }
 
 #card_6 {
   right: 100px;
   top: 50%;
   margin: -100px 0 0 -150px;
+  text-align: center;
 }
 
 .last {
@@ -173,11 +188,13 @@ section {
   border-radius: 1em;
 }
 
-.example {
-  bottom: 100px;
-  right: 48.7%;
+.scroll {
+  bottom: 15%;
+  right: 50%;
+  left: 49%;
   position: absolute;
   transform-origin: center;
+  align: center;
 }
 
 
