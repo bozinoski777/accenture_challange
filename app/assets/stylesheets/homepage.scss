@@ -92,35 +92,36 @@ section {
 
 #card_1 {
   left: 180px;
-  top: 100px;
+  top: 50px;
 }
 
 #card_2 {
   right: 180px;
-  bottom: 100px;
+  bottom: 50px;
   text-align: right;
 }
 
 #card_3 {
   right: 180px;
-  top: 100px;
+  top: 50px;
   text-align: right;
 }
 
 #card_4 {
   left: 180px;
-  bottom: 100px;
+  bottom: 50px;
 }
 
 #card_5 {
-  left: 100px;
-  top: 400px;
+  left: 200px;
+  top: 50%;
+  margin: -100px 0 0 -150px;
 }
 
 #card_6 {
   right: 100px;
-  bottom: 400px;
-  text-align: right;
+  top: 50%;
+  margin: -100px 0 0 -150px;
 }
 
 .last {
