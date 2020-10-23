@@ -1,24 +1,27 @@
 # README
+## Kaleidoscope Tunnel - Accenture Coding Challange
+### LIVE DEMO: http://accenture-challange-hris.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Info:
 
-Things you may want to cover:
+* Ruby version:
+  - 2.6.6p146 (2020-03-31 revision 67876)
 
-* Ruby version
+* Rails version:
+  - 6.0.3.4
 
-* System dependencies
+* Javascript Packages: 
+  - TweenMax 2.0.2
+  - TimelineMax 2.0.2
+  - ScrollMagic 2.0.6
 
-* Configuration
+* Deployment:
+  - Heroku
+  
+* Images:
+  - https://unsplash.com/
+  - https://www.pexels.com/
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Image editing:
+  - Photoshop CC
+  - Illustrator CC
