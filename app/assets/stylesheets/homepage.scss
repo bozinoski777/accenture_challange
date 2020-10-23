@@ -1,8 +1,7 @@
-// Place all the styles related to the homepage controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+// Fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
 body {
   margin: 0px;
 }
@@ -14,14 +13,8 @@ section {
   box-sizing: 30%;
 }
 
-#scroll-text {
-  font-family: 'Roboto Slab', serif;
-   bottom: 10%;
-  left: 45%;
-  position: absolute;
-  transform-origin: center;
-  align: center;
-  color: darkgray;
+.hide {
+  display: none;
 }
 
 .img_rotation {
@@ -144,7 +137,18 @@ section {
   height: 4000px ;
 }
 
+
 // Scroll icon
+#scroll-text {
+  font-family: 'Roboto Slab', serif;
+  bottom: 10%;
+  left: 45%;
+  position: absolute;
+  transform-origin: center;
+  align: center;
+  color: darkgray;
+}
+
 @keyframes scroll_2 {
   0% {
     transform: translateY(0);
@@ -196,6 +200,3 @@ section {
   transform-origin: center;
   align: center;
 }
-
-
-// Loading bar
